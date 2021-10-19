@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    background-color: white;
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+}
+
+nav>div {
+    width: 1080px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+nav .logo {
+    width: 180px;
+    height: 80px;
+    background: url(../img/logonew.png)no-repeat;
+    background-size: contain;
+    margin-top: 20px;
+    float: left;
+}
+
+nav .boss {
+    width: 700px;
+    height: 100px;
+    line-height: 120px;
+    float: left;
+    margin-left: 50px;
+}
+
+.boss li {
+    float: left;
+    width: 50px;
+    margin-left: 30px;
+}
+
+.boss li a {
+    color: black;
+    font-size: 18px;
+}
+
+nav .search {
+    height: 30px;
+    width: 150px;
+    float: left;
+    line-height: 100px;
+}
+
+nav .search button {
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    color: #EA5059;
+    border: 1px solid #EA5059;
+    line-height: normal;
+}
+
+.search img {
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.search button a {
+    color: #EA5059;
+}
+
+footer {
+    width: 100%;
+    overflow: hidden;
+    background-color: #505050;
+}
+
+.footer-box {
+    width: 1080px;
+    margin: auto;
+    height: 250px;
+    overflow: hidden;
+    background-color: #505050;
+}
+
+.footer-box1 {
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin-top: 20px;
+}
+
+.footer-box1 img {
+    width: 130px;
+}
+
+.footer-box2 {
+    float: left;
+    width: 130px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.footer-box2 img {
+    width: 130px;
+}
+
+.footer1 {
+    width: 100%;
+    height: 70px;
+    margin-top: 8px;
+    color: #9c9b9a;
+}
+
+.footer1 span {
+    font-size: 1px;
+    display: inline-block;
+}
+
+.footer1 span:nth-child(2) {
+    margin-top: 5px;
+}
+
+.footer-box3 {
+    width: 700px;
+    height: 40px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+}
+
+.footer-box3 ul li {
+    float: left;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.footer-box3 .sy {
+    width: 150px;
+    height: 50px;
+    font-size: 12px;
+    color: #9c9b9a;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer-box3 .yq,
+.yq2 {
+    width: 60px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.yq .ul1 li,
+.yq2 .ul2 li,
+.footer-box4 .ul3 li,
+.footer-box5 .ul4 li {
+    padding: 0 !important;
+    color: #9c9b9a;
+    font-size: 12px !important;
+}
+
+.footer-box4,
+.footer-box5 {
+    width: 140px;
+    height: 150px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.footer2 {
+    width: 1080px;
+    height: 30px;
+    margin: auto;
+}
+
+.footer3 {
+    width: 200px;
+    margin: auto;
+    height: 30px;
+    color: #9c9b9a;
+}
+
+main {
+    margin: 20px auto;
+    width: 1080px;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    border: 1px solid rgb(238, 238, 238);
+}
+
+.zc {
+    border-left: brown 5px solid;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.hz {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.hz input {
+    width: 60%;
+    height: 40px;
+    margin: 10px 0;
+    border: solid 1px #9c9b9a;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    font-size: 15px;
+    float: left;
+}
+
+.yzm {
+    float: right;
+}
+
+.btn {
+    width: 30%;
+    float: right;
+    height: 100%;
+    line-height: 40px;
+    /* margin-top: 10px; */
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(230, 230, 230);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: rgb(202, 202, 202);
+}
+
+.dj {
+    height: 40px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: #EA5059;
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dj:hover {
+    background-color: #ca4850;
+}
+
+#submitBtn {
+    background-color: #EA5059;
+}
+
+img {
+    border: none;
+}
+
+.message {
+    float: leftl;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+.hz div {
+    overflow: hidden;
+}

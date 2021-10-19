@@ -19,6 +19,7 @@ function show(val) {
     var str = '';
     for (var i of val) {
         var img_ = i.img.replace(/192.168.1.64/g, '192.168.1.29');
+        str += '<a href="../guid/导购-详情.html">'
         str += '<div class="guid-in ">';
         str += '<img src="' + img_ + '"+ alt="">';
         str += '<p>' + i.text + '</p>';
@@ -37,6 +38,7 @@ function show(val) {
         str += '</div>';
         str += '</div>';
         str += '</div>';
+        str += '</a>'
     }
     var div = document.getElementsByClassName('guid-content')[0].innerHTML = str;
 
