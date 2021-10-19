@@ -1,0 +1,128 @@
+main{
+    width: 100%;
+    background-color: #F7F7F7;
+}
+.report-nav{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-color: white;
+}
+.report-nav h1{
+    width: 1080px;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center; 
+    padding-top: 20px;
+}
+.report-nav>div{
+    width: 1080px ;
+    height: 50px;
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+}
+.report-nav div a{
+    display: block;
+    width: 100px;
+    float: left;
+    position: relative;
+    bottom: 0;
+    left: 440px;
+}
+.report-nav div a:hover{
+    color: #FE6541;
+}
+.report-content{
+    margin: 0 auto;
+    width: 1080px;
+    overflow: hidden;
+   
+}
+.report-content-left{
+    width: 700px;
+    margin-top: 20px;
+    margin-right: 50px;
+    background-color: white;
+    float: left;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.report-content-left .bj{
+    width: 700px ;
+    height: 377px;
+    border-radius: 15px 15px 0 0;
+}
+.report-content-left p{
+    width: 670px;
+    height: 20px;
+    margin:  10px 15px;
+    font-size: 18px;
+}
+
+.report-zan{
+    width: 670px;
+    height: 30px;
+    margin:20px 15px;
+    position: relative;
+}
+.report-zan-name{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.report-zan-a{
+    
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+}
+.report-zan-b{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.report-bd{
+    width: 700px;
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 1px solid #ccc;   
+}
+.report-content-right{
+    width: 330px;
+   
+    margin-top: 20px;
+    background-color: white;
+    float: left;
+    overflow: hidden;
+}
+.report-content-right h2,
+.report-content-right h3{
+    
+    width:300px;
+    height: 20px;
+    line-height: 20px;
+    margin:15px;
+    border-left: 5px solid #FC4835 ;
+}
+.report-content-right img{
+    width: 330px;
+}
+.report-content-right p{
+    width: 300px ;
+    margin: 15px;
+    font-size: 14px;
+}
+.more{
+    width: 1080px;
+    margin: 0 auto;
+    height: 20px;
+    text-align: center;
+    color: #FC4835;
+    overflow: hidden;
+    cursor: pointer;
+}
