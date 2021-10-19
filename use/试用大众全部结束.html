@@ -6,76 +6,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/酷玩.css">
+    <script src="../js/试用/试用全部.js"></script>
+    <link rel="stylesheet" href="../css/试用.css">
+
 </head>
+<style>
+    .ul2 .a {
+        color: #EA5057 !important;
+    }
+</style>
 
 <body>
     <nav>
         <div>
             <div class="logo"></div>
             <ul class="boss">
-                <li class="asd"><a href="./index.html">首页</a></li>
-                <li><a href="./play/最新.html">酷玩</a></li>
-                <li><a href="./guid/导购清单-最新.html">导购</a></li>
-                <li><a href="./use/试用产品.html">试用</a></li>
-                <li><a href="./report/报告-最新.html">报告</a></li>
+                <li><a href="../index.html">首页</a></li>
+                <li><a href="../play/最新.html">酷玩</a></li>
+                <li><a href="../guid/导购清单-最新.html">导购</a></li>
+                <li class="asd"><a href="../use/试用大众.html">试用</a></li>
+                <li><a href="../report/报告-最新.html">报告</a></li>
             </ul>
             <div class="search">
-                <img src="./css/img/search.png" alt="">
+                <img src="../css/img/search.png" alt="">
                 <button><a href="">注册</a></button>
             </div>
         </div>
     </nav>
     <main>
-        <div class="box-left">
-            <h2>帮助中心</h2>
-            <dl>
-                <dt>商务合作</dt>
-                <dd>关于极果</dd>
-                <dd>极果大事记</dd>
-                <dd>联系我们</dd>
-            </dl>
-            <br>
-            <br>
-            <br>
-            <dl>
-                <dt>免费试用</dt>
-                <dd>试用流程</dd>
-                <dd>如何提高成功率</dd>
-            </dl>
-        </div>
-        <div class="box-right">
-            <h2>免费试用</h2>
-            <dl>
-                <dt>试用流程</dt>
-                <dd>Step1：报名申请试用<br> Step2：筛选并公布试用名单
-                    <br> Step3：客服电话或短信通知试用者
-                    <br> Step4：收取押金后寄送产品和试用须知
-                    <br> Step5：用户收货并在朋友圈或微博晒单
-                    <br> Step6：试用并在规定时间上传体验报告
-                    <br> Step7：审核报告并确认产品是否回收
-                    <br> Step8：返还试用机，收货后退还押金
-                </dd>
-                <dt>试用注意事项</dt>
-                <dd>1. 收到试用通知，2天不回复算弃权<br> 2. 拒缴押金则取消试用资格<br> 3. 试用机被人为损坏须赔偿 Beijing Mini Maker Faire，让更多的普通消费者通过丰富的线下活动来亲身体验新硬件给生活带来的全新改变；
-                    <br> 4. 严重拖延报告将影响后续活动资格<br> 5. 30天内不得凭借拉票重复中签试用，以当月首次为准，不得调换，遇有重复则资格顺延。
-                    <br> 6. 客服妹妹QQ： 3287633427 <br>
-                </dd>
-                <dt>如何提高申请成功率</dt>
-                <dd>1. 完善个人主页，展现专业性（请在手机端页面完善：m.jiguo.com）<br> 2. 试用计划明确且有新意<br> 3. 在社交网络或圈子里有大影响力<br> 4. 使劲拉票，但禁止恶意刷票
-                    <br> 5. 认真参与并转发极果的活动<br> BTW：极果不是福利社，给基友、男友、女友送礼物，献爱心以及完成小时候心愿神马的一概不会通过哦～
-                </dd>
+        <div class="header">
+            <div class="header1">
+                免费试用
+            </div>
+            <div class="header2">
+                <ul class="ul5">
+                    <a href="../use/试用大众.html">
+                        <li class="zr">大众试用</li>
+                    </a>
+                    <a href="../use/试用体验.html">
+                        <li onclick="zr()">体验师专享</li>
+                    </a>
+                </ul>
+                <div class="header4">
+                    <ul class="ul2">
+                        <a href="../use/试用大众.html">
+                            <li>全部</li>
+                        </a>
+                        <a href="../use/试用大众.html">
+                            <li>申请中</li>
+                        </a>
+                        <a href="../use/试用大众.html">
+                            <li>试用中</li>
+                        </a>
+                        <a href="../use/试用大众.html">
+                            <li class="a">已结束</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+
+
         </div>
     </main>
+    <div class="main1">
+        <!-- <div class="main2">
+            <div class="main3">
+                <img src="../img/hot5.jpg" alt="">
+                <p>巴慕达The Toaster烤面包机</p>
+                <div>2032</div>
+                <div>20台</div>
+                <br><span>1392<p>申请</p></span>
+                <br><span>报告数量:8</span>
+            </div>
+        </div> -->
+    </div>
+    <div class="load">
+        <img src="../css/img/more.png" alt="" srcset="">点击加载更多
+    </div>
     <footer>
         <div class="footer-box">
             <div class="footer-box1">
-                <img src="./img/code.png" alt="">
+                <img src="../img/code.png" alt="">
             </div>
             <div class="footer-box2">
                 <div class="footer-img">
-                    <img src="./img/logoImg.jpg" alt="">
+                    <img src="../img/logoImg.jpg" alt="">
                 </div>
                 <div class="footer1">
                     <span>全球酷玩试用导购平台酷·新奇·好玩·品质</span>
@@ -141,24 +158,6 @@
             </div>
         </div>
     </footer>
-</body>
-
-</html>
-<li>关于极果</li>
-<li>联系我们</li>
-<li>商务合作：BD@jiguo.com</li>
-<li>CEO邮箱：CEO@jiguo.com</li>
-</ul>
-
-</div>
-</div>
-</div>
-<div class="footer2">
-    <div class="footer3">
-        &copy;2016 极果版权所有
-    </div>
-</div>
-</footer>
 </body>
 
 </html>
