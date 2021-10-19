@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5,11 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./css/index.css">
-    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="../css/酷玩.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/酷玩/最热.js"></script>
 </head>
+<style>
+    .zr {
+        border-bottom: 5px solid #EA5059;
+    }
+</style>
 
 <body>
     <nav>
@@ -23,87 +28,58 @@
                 <li><a href="">报告</a></li>
             </ul>
             <div class="search">
-                <img src="./css/img/search.png" alt="">
+                <img src="../css/img/search.png" alt="">
                 <button><a href="">注册</a></button>
             </div>
         </div>
     </nav>
-    <!-- 轮播 -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- 指示符 -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-        </div>
-
-        <!-- 轮播图片 -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/轮播1.jpg" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/轮播2.jpg" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/轮播3.jpg" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/轮播4.jpg" class="d-block" style="width:100%">
-            </div>
-        </div>
-
-        <!-- 左右切换按钮 -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-                </button>
-    </div>
     <main>
-        <div class="one">
-            <div class="rm">
-                热门使用
-            </div>
-            <div class="d1"></div>
-            <br>
-        </div>
-        </div>
-        <div class="one">
-            <div class="rm">
-                导购精选
-            </div>
-            <br>
-            <div class="d2"></div>
-            <br>
-        </div>
-        </div>
-        <div class="one">
-            <div class="rm">
+        <div class="header">
+            <div class="header1">
                 发现酷玩
             </div>
-            <br>
-            <div class="d3">
+            <div class="header2">
+                <ul class="ul5">
+                    <a href="./最新.html">
+                        <li onclick="zx()">最新</li>
+                    </a>
+
+                    <li class="zr" onclick="zr()">最热</li>
+
+                    <a href="./品类.html">
+                        <li onclick="pl()">品类</li>
+                    </a>
+                </ul>
             </div>
-            <br>
-        </div>
-        <div class="gd">
+            <div class="main1">
+                <!-- <div class="main2">
+                    <img src="../img/k1.jpg" alt="">
+                    <div class="border">
+                        <p>SCIO&nbsp;微光谱仪</p>
+                        <span>可以测定十五成分及营养</span>
+                        <div class="img">
+                            <span>￥&nbsp;&nbsp;1212</span>
+                            <img src="../css/img/xin.png" alt="">
+                            <p>3</p>
+                            <img src="../css/img/reply.png" alt="">
+                            <p>3</p>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div onclick="on2()" style="text-align: center;line-height: 40px;" class="header2">
+                <img src="../css/img/more.png" alt="" srcset="">点击加载更多
+            </div>
         </div>
     </main>
-    <div class="ck" onclick="on()" ondblclick="fn()">
-        查看更多
-    </div>
     <footer>
         <div class="footer-box">
             <div class="footer-box1">
-                <img src="./img/code.png" alt="">
+                <img src="../img/code.png" alt="">
             </div>
             <div class="footer-box2">
                 <div class="footer-img">
-                    <img src="./img/logoImg.jpg" alt="">
+                    <img src="../img/logoImg.jpg" alt="">
                 </div>
                 <div class="footer1">
                     <span>全球酷玩试用导购平台酷·新奇·好玩·品质</span>
@@ -159,6 +135,7 @@
                         <li>商务合作：BD@jiguo.com</li>
                         <li>CEO邮箱：CEO@jiguo.com</li>
                     </ul>
+
                 </div>
             </div>
         </div>
@@ -171,3 +148,9 @@
 </body>
 
 </html>
+<script>
+    var zr = document.getElementsByClassName('zr')[0];
+    zr.onclick = function () {
+
+    }
+</script>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -5,11 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./css/index.css">
-    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/酷玩.css">
 </head>
+
 
 <body>
     <nav>
@@ -23,87 +23,286 @@
                 <li><a href="">报告</a></li>
             </ul>
             <div class="search">
-                <img src="./css/img/search.png" alt="">
+                <img src="../css/img/search.png" alt="">
                 <button><a href="">注册</a></button>
             </div>
         </div>
     </nav>
-    <!-- 轮播 -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- 指示符 -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-        </div>
-
-        <!-- 轮播图片 -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/轮播1.jpg" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/轮播2.jpg" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/轮播3.jpg" class="d-block" style="width:100%">
-            </div>
-            <div class="carousel-item">
-                <img src="./img/轮播4.jpg" class="d-block" style="width:100%">
-            </div>
-        </div>
-
-        <!-- 左右切换按钮 -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-                </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-                <span class="carousel-control-next-icon"></span>
-                </button>
-    </div>
     <main>
-        <div class="one">
-            <div class="rm">
-                热门使用
-            </div>
-            <div class="d1"></div>
-            <br>
-        </div>
-        </div>
-        <div class="one">
-            <div class="rm">
-                导购精选
-            </div>
-            <br>
-            <div class="d2"></div>
-            <br>
-        </div>
-        </div>
-        <div class="one">
-            <div class="rm">
+        <div class="header">
+            <div class="header1">
                 发现酷玩
             </div>
-            <br>
-            <div class="d3">
+            <div class="header2">
+                <ul class="ul5">
+                    <a href="./最新.html">
+                        <li onclick="zx()">最新</li>
+                    </a>
+                    <a href="./最热.html">
+                        <li onclick="zr()">最热</li>
+                    </a>
+                    <li class="zr" onclick="pl()">品类</li>
+                </ul>
             </div>
-            <br>
-        </div>
-        <div class="gd">
+
         </div>
     </main>
-    <div class="ck" onclick="on()" ondblclick="fn()">
-        查看更多
+    <div class="box">
+        <div class="box1">
+            <div class="sh">
+                生活
+            </div>
+            <div class="hz">
+                <div class="hz1">
+                    <img src="../img/cat_1.png" alt="">
+                    <p>空气净化器（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_2.png" alt="">
+                    <p>吸尘器（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_3.png" alt="">
+                    <p>扫地机器人（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_4.png" alt="">
+                    <p>电风扇（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_5.png" alt="">
+                    <p>净水壶（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_6.png" alt="">
+                    <p>电饭煲（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_7.png" alt="">
+                    <p>咖啡机（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_8.png" alt="">
+                    <p>原汁机（21）</p>
+                </div>
+            </div>
+            <div class="lis">
+                <ul class="ul1">
+                    <li>电视（21）</li>
+                    <li>空调（21）</li>
+                    <li>洗衣机（21）</li>
+                    <li>加湿器（21）</li>
+                    <li>净水壶（21）</li>
+                    <li>热水器（21）</li>
+                    <li>咖啡机（21）</li>
+                    <li>原汁机（21）</li>
+                    <li>消毒/洗碗机（21）</li>
+                    <li>豆浆机（21）</li>
+                    <li>扫地机器人（21）</li>
+                    <li>电风扇（21）</li>
+                    <li>除湿机（21）</li>
+                    <li>干燥机（21）</li>
+                    <li>取暖器（21）</li>
+                    <li>原汁机（21）</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <div class="sh">
+                个人护理
+            </div>
+            <div class="hz">
+                <div class="hz1">
+                    <img src="../img/cat_9.png" alt="">
+                    <p>电动牙刷（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_10.png" alt="">
+                    <p>剃须刀（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_11.png" alt="">
+                    <p>按摩器（21）</p>
+                </div>
+
+            </div>
+            <div class="lis">
+                <ul class="ul1">
+                    <li>冲牙器（21）</li>
+                    <li>洁面仪（21）</li>
+                    <li>蒸面器（21）</li>
+                    <li>加湿器（21）</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <div class="sh">
+                健康
+            </div>
+            <div class="hz">
+                <div class="hz1">
+                    <img src="../img/cat_1.png" alt="">
+                    <p>电动牙刷（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_3.png" alt="">
+                    <p>剃须刀（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_2.png" alt="">
+                    <p>按摩器（21）</p>
+                </div>
+
+            </div>
+            <div class="lis">
+                <ul class="ul1">
+                    <li>冲牙器（21）</li>
+                    <li>洁面仪（21）</li>
+                    <li>蒸面器（21）</li>
+                    <li>加湿器（21）</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <div class="sh">
+                智能穿戴
+            </div>
+            <div class="hz">
+                <div class="hz1">
+                    <img src="../img/cat_1.png" alt="">
+                    <p>空气净化器（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_2.png" alt="">
+                    <p>吸尘器（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_3.png" alt="">
+                    <p>扫地机器人（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_4.png" alt="">
+                    <p>电风扇（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_5.png" alt="">
+                    <p>净水壶（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_6.png" alt="">
+                    <p>电饭煲（21）</p>
+                </div>
+            </div>
+            <div class="lis">
+                <ul class="ul1">
+                    <li>电视（21）</li>
+                    <li>空调（21）</li>
+                    <li>洗衣机（21）</li>
+                    <li>加湿器（21）</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <div class="sh">
+                户外运动
+            </div>
+            <div class="hz">
+                <div class="hz1">
+                    <img src="../img/cat_1.png" alt="">
+                    <p>空气净化器（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_2.png" alt="">
+                    <p>吸尘器（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_3.png" alt="">
+                    <p>扫地机器人（21）</p>
+                </div>
+            </div>
+            <div class="lis">
+                <ul class="ul1">
+                    <li>电视（21）</li>
+                    <li>空调（21）</li>
+                    <li>洗衣机（21）</li>
+                    <li>加湿器（21）</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <div class="sh">
+                摄影
+            </div>
+            <div class="hz">
+                <div class="hz1">
+                    <img src="../img/cat_1.png" alt="">
+                    <p>空气净化器（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_2.png" alt="">
+                    <p>吸尘器（21）</p>
+                </div>
+                <div class="hz1">
+                    <img src="../img/cat_3.png" alt="">
+                    <p>扫地机器人（21）</p>
+                </div>
+            </div>
+            <div class="lis">
+                <ul class="ul1">
+                    <li>电视（21）</li>
+                    <li>空调（21）</li>
+                    <li>洗衣机（21）</li>
+                    <li>加湿器（21）</li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        <div class="box1">
+            <div class="sh">
+                手机
+            </div>
+            <div class="hz">
+                <div class="hz1">
+                    <img src="../img/cat_10.png" alt="">
+                    <p>空气净化器（21）</p>
+                </div>
+            </div>
+            <div class="lis">
+                <ul class="ul1">
+                    <li>电视（21）</li>
+                    <li>空调（21）</li>
+                    <li>洗衣机（21）</li>
+                    <li>加湿器（21）</li>
+                </ul>
+
+            </div>
+        </div>
     </div>
     <footer>
         <div class="footer-box">
             <div class="footer-box1">
-                <img src="./img/code.png" alt="">
+                <img src="../img/code.png" alt="">
             </div>
             <div class="footer-box2">
                 <div class="footer-img">
-                    <img src="./img/logoImg.jpg" alt="">
+                    <img src="../img/logoImg.jpg" alt="">
                 </div>
                 <div class="footer1">
                     <span>全球酷玩试用导购平台酷·新奇·好玩·品质</span>
@@ -159,6 +358,7 @@
                         <li>商务合作：BD@jiguo.com</li>
                         <li>CEO邮箱：CEO@jiguo.com</li>
                     </ul>
+
                 </div>
             </div>
         </div>

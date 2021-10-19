@@ -234,14 +234,15 @@ main {
     float: left;
     margin-left: 20px;
     margin-top: 20px;
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(255, 254, 254);
     border-radius: 15px;
-    border: 1px solid rgb(218, 218, 218);
+    border: 1px solid rgb(230, 230, 230);
 }
 
 .cp img {
     width: 100%;
-    border-radius: 15px
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 10px;
 }
 
 .cp>a {
@@ -283,7 +284,11 @@ main {
     overflow: hidden;
 }
 
-.h6 {
-    display: block;
-    padding: 5px 5px;
+.cp .h6 {
+    display: inline-block;
+    width: 230px;
+}
+
+.boss>.asd>a {
+    border-bottom: 3px solid rgb(214, 7, 7);
 }
