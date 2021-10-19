@@ -17,6 +17,7 @@ function onData(v) {
   for (var i = 0; i < v.length; i++) {
     for (var j = 0; j < v[i].length; j++) {
       var img_ = v[i][j].img.replace(/192.168.1.64/g, "192.168.1.29");
+
       str += "<div class='main2'>";
       str += '<img src="' + img_ + '" alt="">';
       str += '<div class="border">';
@@ -31,6 +32,7 @@ function onData(v) {
       str += "</div>";
       str += "</div>";
       str += "</div>";
+
     }
   }
   document.getElementsByClassName("main1")[0].innerHTML = str;

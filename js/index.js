@@ -49,6 +49,7 @@ function fn() {
 
 function onData2(v) {
     var str = '';
+
     for (var i = 0; i < v.length - 1; i++) {
         var img_ = v[i].img.replace(/localhost/g, '192.168.1.29');
         // console.log(v);

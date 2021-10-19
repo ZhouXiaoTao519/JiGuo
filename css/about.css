@@ -1,0 +1,40 @@
+.box-left {
+    width: 300px;
+    background-color: rgb(221, 221, 221);
+    float: left;
+    padding: 20px 20px;
+    border-radius: 5px;
+    color: rgb(31, 31, 31);
+}
+
+.box-left h2 {
+    margin: 10px 10px;
+    border-bottom: 1px solid rgb(133, 132, 132);
+}
+
+.box-right {
+    color: rgb(31, 31, 31);
+    padding: 20px 20px;
+    width: 750px;
+    background-color: rgb(221, 221, 221);
+    float: right;
+    border-radius: 5px;
+}
+
+dl {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+dl dt {
+    font-weight: bold;
+}
+
+dl dd {
+    text-indent: 2em;
+}
+
+.box-right h2 {
+    margin: 10px 10px;
+    border-bottom: 1px solid rgb(133, 132, 132);
+}
