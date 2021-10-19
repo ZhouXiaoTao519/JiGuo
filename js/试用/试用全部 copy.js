@@ -1,6 +1,6 @@
 window.onload = function () {
   var ajax = new XMLHttpRequest() || new ActiveXObject("Microsoft.XMLHttp");
-  ajax.open("get", "http://192.168.1.29:3000/useing/public");
+  ajax.open("get", "http://192.168.1.29:3000/useing/master");
   ajax.send();
   ajax.onreadystatechange = function () {
     if (ajax.readyState == 4) {
