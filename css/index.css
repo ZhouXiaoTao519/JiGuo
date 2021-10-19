@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a {
+    color: black;
+}
+
 body {
     background-color: rgb(247, 247, 247);
 }
@@ -23,6 +27,7 @@ a {
 
 nav {
     background-color: white;
+    overflow: hidden;
 }
 
 nav>div {
@@ -60,18 +65,19 @@ nav .boss {
 }
 
 nav .search {
+    height: 30px;
     width: 150px;
-    height: 100px;
     float: left;
-    height: 100px;
     line-height: 100px;
 }
 
-.search button {
+nav .search button {
     width: 50px;
+    height: 30px;
     background-color: white;
     color: #EA5059;
     border: 1px solid #EA5059;
+    line-height: normal;
 }
 
 .search img {
@@ -205,4 +211,78 @@ li {
     margin: auto;
     height: 30px;
     color: #9c9b9a;
+}
+
+main {
+    overflow: hidden;
+    width: 1080px;
+    margin: 20px auto;
+    font-size: 12px;
+}
+
+.rm {
+    width: 1050px;
+    margin: 0 auto;
+    border-bottom: 1px solid rgb(167, 167, 167);
+}
+
+.cp {
+    text-align: center;
+    width: 250px;
+    height: 290px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+    border: 1px solid rgb(218, 218, 218);
+}
+
+.cp img {
+    width: 100%;
+    border-radius: 15px
+}
+
+.cp>a {
+    display: inline-block;
+    width: 50px;
+    margin: 0 5px;
+    border: 1px solid #EA5059;
+}
+
+.cp>div {
+    margin-top: 5px;
+}
+
+.cp h5 {
+    display: inline-block;
+    vertical-align: middle;
+    color: #EA5059;
+}
+
+.ck {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #EA5059;
+    cursor: pointer;
+}
+
+.gd {
+    margin: 0 auto;
+    width: 1080px;
+    margin-bottom: 50px;
+}
+
+.d1,
+.d2,
+.d3 {
+    overflow: hidden;
+}
+
+.h6 {
+    display: block;
+    padding: 5px 5px;
 }
