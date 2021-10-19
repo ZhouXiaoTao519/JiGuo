@@ -6,26 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/酷玩.css">
     <link rel="stylesheet" href="../css/index.css">
-    <script src="../js/酷玩/最热.js"></script>
+    <link rel="stylesheet" href="../css/酷玩.css">
+    <script src="../js/酷玩/最新.js"></script>
 </head>
-<style>
-    .zr {
-        border-bottom: 5px solid #EA5059;
-    }
-</style>
 
 <body>
     <nav>
         <div>
             <div class="logo"></div>
             <ul class="boss">
-                <li class="asd"><a href="./index.html">首页</a></li>
-                <li><a href="./play/最新.html">酷玩</a></li>
-                <li><a href="../JiGuo/guid/导购清单-最新.html">导购</a></li>
-                <li><a href="../JiGuo/use/试用产品.html">试用</a></li>
-                <li><a href="../JiGuo/report/报告-最新.html">报告</a></li>
+                <li><a href="../index.html">首页</a></li>
+                <li class="asd"><a href="../play/最新.html">酷玩</a></li>
+                <li><a href="../guid/导购清单-最新.html">导购</a></li>
+                <li><a href="../use/试用大众.html">试用</a></li>
+                <li><a href="../report/报告-最新.html">报告</a></li>
             </ul>
             <div class="search">
                 <img src="../css/img/search.png" alt="">
@@ -40,12 +35,10 @@
             </div>
             <div class="header2">
                 <ul class="ul5">
-                    <a href="./最新.html">
-                        <li onclick="zx()">最新</li>
+                    <li onclick="zx()">最新</li>
+                    <a href="./最热.html">
+                        <li class="zr" onclick="zr()">最热</li>
                     </a>
-
-                    <li class="zr" onclick="zr()">最热</li>
-
                     <a href="./品类.html">
                         <li onclick="pl()">品类</li>
                     </a>
@@ -66,6 +59,10 @@
                         </div>
                     </div>
                 </div> -->
+            </div>
+            <div class="footer1">
+                <span>全球酷玩试用导购平台酷·新奇·好玩·品质</span>
+                <span>微信添加“JguoJguo”<br>获取我们的服务。</span>
             </div>
             <div onclick="on2()" style="text-align: center;line-height: 40px;" class="header2">
                 <img src="../css/img/more.png" alt="" srcset="">点击加载更多
@@ -147,10 +144,13 @@
     </footer>
 </body>
 
+</html>ooter>
+</body>
+
 </html>
 <script>
     var zr = document.getElementsByClassName('zr')[0];
-    zr.onclick = function () {
+    zr.onclick = function() {
 
     }
 </script>
