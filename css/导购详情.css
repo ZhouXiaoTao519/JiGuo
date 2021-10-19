@@ -1,0 +1,88 @@
+.details{
+    width: 100%;
+    background-color: #F7F7F7;
+    overflow: hidden;
+}
+.details-box{
+    width: 1080px;
+    margin: 0 auto;    
+}
+.details-box-nav{
+    margin: 15px 0;
+    color: #999;
+}
+.details-box-left{
+    width: 800px;
+    background-color: white;
+    float: left;
+}
+.details-left-two{
+    width: 800px;
+    margin-top: 20px;
+}
+.details-left-three{
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.details-left-three h3{
+    width: 800px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.details-left-three img{
+    width: 800px;
+    margin:15px 0 ;
+}
+.details-left-three p{
+    width: 760px;
+    margin:  0 20px;
+    
+}
+.details-left-four{
+    width: 800px;
+    
+}
+.details-left-four p{
+    width: 800px;
+    height: 25px;
+    color: #ccc;
+    font-size: 14px;
+}
+.details-box-right{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    
+}
+.details-box-right div{
+width: 100px;
+height: 100px;
+text-align: center;
+border: 1px solid rgb(201, 197, 197);
+
+}
+.like{
+    position: absolute;
+    left: 0;
+}
+.share{
+    position: relative;
+    left: 100px;
+}
+.details-box-right div img{
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-top: 15px;
+}
+.details-box-right div p{
+    width: 85px;
+    color: #ccc;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 10px;
+}
