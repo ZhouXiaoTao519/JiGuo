@@ -23,7 +23,7 @@ function onData(v) {
     str += "<div>" + v[i].totalnum + "</div>";
     str += "<div>" + v[i].num + "</div>";
     str += "<br><span>" + v[i].apply + "<p>申请</p></span>";
-    str += "<br><span>报告数量:8</span>";
+
     str += "</div>";
     str += "</div>";
   }

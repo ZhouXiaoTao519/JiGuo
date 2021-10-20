@@ -295,3 +295,18 @@ main {
 .footer-box3 ul li a{
     color: white;
 }
+main .cp:hover,
+main .main1 .main2:hover,
+.guid-footer .guid-content .guid-in:hover,
+.main1 .main2 .main3:hover{
+    transform: translateY(-2px);
+    transition: all 0.8s;
+    box-shadow: 3px 3px 10px 2px #ccc;
+
+}
+main .main1 .main2{
+    overflow: hidden;
+}
+.guid-footer .guid-content{
+    overflow: hidden;
+}
