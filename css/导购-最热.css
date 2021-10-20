@@ -1,0 +1,100 @@
+.guid-nav {
+    width: 1080px;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+}
+
+.a-first {
+    color: #FF9A84 !important;
+}
+
+.guid-nav h1 {
+    font-weight: 400;
+    width: 1080px;
+    height: 70px;
+    line-height: 70px;
+}
+
+.guid-nav div {
+    width: 1080px;
+    height: 30px;
+    padding-left: 435px;
+}
+
+.guid-nav div a {
+    display: block;
+    width: 100px;
+    height: 30px;
+    float: left;
+    color: black;
+}
+
+.a-second {
+    color: #FF9A84 !important;
+}
+
+.guid-footer {
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    float: left;
+}
+
+.guid-content {
+    width: 1080px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.guid-in {
+    width: 240px;
+    height: 250px;
+    border: 1px solid rgb(206, 204, 204);
+    margin-top: 10px;
+    margin-right: 20px;
+    float: left;
+    border-radius: 15px;
+}
+
+.guid-in>img {
+    width: 240px;
+    height: 120px;
+    border-radius: 15px 15px 0 0;
+}
+
+.guid-in p {
+    width: 240px;
+    height: 90px;
+    padding: 10px;
+}
+
+.guid-zan {
+    width: 240px;
+    height: 20px;
+    position: relative;
+}
+
+.guid-zan-a {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    right: 35px;
+}
+
+.guid-zan-b {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    right: 5px;
+}
+
+.guid-zan-a img {
+    width: 20px;
+    height: 10px;
+}
+
+.guid-zan-b img {
+    width: 20px;
+    height: 10px;
+}
