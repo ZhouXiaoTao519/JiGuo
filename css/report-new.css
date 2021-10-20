@@ -14,6 +14,7 @@ main{
     height: 50px;
     text-align: center; 
     padding-top: 20px;
+    color: black;
 }
 .report-nav>div{
     width: 1080px ;
@@ -30,6 +31,7 @@ main{
     position: relative;
     bottom: 0;
     left: 440px;
+    color: black;
 }
 .report-nav div a:hover{
     color: #FE6541;
